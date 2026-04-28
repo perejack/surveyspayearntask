@@ -2,7 +2,7 @@
 const PAYHERO_API_URL = 'https://backend.payhero.co.ke/api/v2/payments';
 const PAYHERO_AUTH_TOKEN = 'Basic VUlUdTQ0cnNZSVoxTTh3bUZlb0c6Uk9xbkl4cmdFSnVJYTFzVmRGSTJXUUo5cUszTFZpRnRub1RONUJxQw==';
 const PAYHERO_CHANNEL_ID = 6637;
-const CALLBACK_URL = 'https://www.surveyspay.co.ke/api/payhero/callback';
+const CALLBACK_URL = 'https://www.surveyspay.online/api/payhero/callback';
 
 export default async function handler(req, res) {
   // Enable CORS
